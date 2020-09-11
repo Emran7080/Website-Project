@@ -1,0 +1,781 @@
+*{
+    margin: 0px;
+    padding:0px
+
+}
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.container{
+    width: 1300px ;
+    height: 4338px ;
+    margin: 0px auto;
+    padding: 0px 30px;
+    background:white;
+    box-shadow: black;
+
+}
+
+.container .header{
+    width: 100% ;
+    height : 50px ; 
+    background-color:#683091 ;
+
+}
+
+.container .header .HT{
+  color : white ;
+  text-align : left ;
+  padding : 10px 0px 10px 10px ;
+  width: 20% ;
+}
+
+
+
+.navpic{
+
+    width: 100% ;
+    height : 350px ;
+    background-image: url('nav.png');
+    background-repeat: no-repeat ;
+    background-size: 100% 350px ;
+  
+}
+
+
+
+.navbarMenu{
+    width: 100% ;
+    height: 45px;
+     background-color: whitesmoke;
+     float: left ;
+     margin-bottom: 20px ;
+}
+.navbarMenu ul{
+   
+    list-style-type: none;
+    float: left ;
+}
+.navbarMenu ul li{ 
+    border-right: 1px solid rgb(163, 163, 163);
+    padding: 10px 16px ;
+    float: left ;
+  
+}
+.navbarMenu ul li a{
+    text-decoration: none;
+   
+    color: black;
+    float: left ;
+}
+
+
+
+.navbarMenu ul li a{
+    display : inline-block ;
+}
+.navbarMenu ul li a img{
+    width: 25px;
+    height: 20px;
+}
+
+.navbarMenu ul li:hover{
+    background-color: blue ;
+    
+}
+
+.navbarMenu li:hover a{
+    color : white ;
+}
+
+.primary{
+    width:900px ;
+    float:  left ;
+    display: inline-block ;
+}
+
+
+.primary .section1 img{
+
+        width: 100% ;
+        height : 450px ;
+        background-image: 100% 450px ;
+         
+}
+
+.primary .section2{
+
+    background-color: #e6e7e8 ;
+    padding : 10px 0px ;
+    font-size: 20px ;
+    font-weight: 700 ;
+    
+     
+}
+
+
+
+.primary .section3{
+
+    width: 100% ;
+    height : 340px ;
+    background-color:  #3498DB ;
+    
+
+}
+
+.primary .section3 .s3content{
+
+
+    padding-top : 70px ;
+    padding-bottom : 80px ;
+    padding-left : 120px ;
+    color:  white ;
+  
+}
+
+.primary .section3 .s3content ul li{
+
+    list-style-type: square ;
+    font-size: 18px ;
+    color:  white ;
+    
+}
+
+
+.primary .section4{
+
+    width: 100% ;
+    height : 100px ;
+    background-color: #683091  ;
+     
+}
+
+
+.primary .section4 .s4content p{
+ 
+    font-size : 17px ;
+    padding-top: 20px ;
+    padding-left : 18px ;
+    color: white ;
+    font-weight: 700 ;
+
+}
+
+.section5 .s5content1{
+
+    width: 100% ;
+    height : 50px ;
+    background-color: green ;
+   
+}
+
+.primary .section5 .s5content1 p{
+
+color : white ;
+
+text-align : center ;
+padding-top : 15px ;
+font-weight : 700 ;
+
+
+}
+
+
+
+
+.section6 .s6content1{
+
+    width: 100% ;
+    height : 50px ;
+    background-color: green ;
+   
+}
+
+.primary .section6 .s6content1 p{
+
+color : white ;
+
+text-align : center ;
+padding-top : 15px ;
+font-weight : 700 ;
+
+
+}
+
+
+
+
+.primary .section6 .s6content2{
+
+
+    width: 100% ;
+    height : 300px ;
+    background-color:  #FF5733  ;
+  
+    color:  white ;
+    
+  
+}
+
+.primary .section6 .s6content2 ul li{
+
+    list-style-type: square ;
+    font-size: 18px ;
+    color:  white ;
+   
+
+}
+
+.primary .section6 .s6content2 ul{
+    padding: 50px 0px 50px 80px ;
+
+}
+
+.primary .section7{
+    width: 100% ;
+}
+
+.section7 .s7content1{
+
+    width: 100% ;
+    height : 50px ;
+    background-color: green ;
+   
+}
+
+.primary .section7 .s7content1 p{
+
+    color : white ;
+    
+    text-align : center ;
+    padding-top : 15px ;
+    font-weight : 700 ;
+    
+    }
+
+
+    .primary .section8 img{
+
+        width: 100% ;
+        height : 500px ;
+        background-image: 100% 500px ;
+         
+}
+
+.primary .section9 img{
+
+    width: 100% ;
+    height : 500px ;
+    background-image: 100% 500px ;
+    margin-top: 5px ;
+   
+     
+}
+
+
+
+
+
+    /*Right Part*/
+
+
+    .secondary{
+
+        width:30% ;
+        height: auto ;
+        float: right ;
+        display: inline ;
+        margin-left : 10px ;
+   
+
+    }
+
+    .secondary .Spart1 .section1{
+
+        width : 100% ;
+        height : 40px ;
+        background-color : green ;
+
+    }
+
+
+    
+    .secondary .Spart1 .section1 p{
+
+      color : white ;
+      padding : 10px ;
+    }
+
+
+    .secondary .Spart1 .section2 img{
+
+        width :100% ;
+        height : 300px ;
+        margin-top : 10px ;
+
+      
+      }
+
+      .secondary .Spart1 .section2 p{
+          width: 100% ;
+          height : 90px ;
+          background-color : #8E44AD ;
+          color : white ;
+          text-align: center ;
+          padding-top : 11px ;   
+
+      }
+
+
+
+      .secondary .Spart2 .section1{
+
+        width : 100% ;
+        height : 40px ;
+        background-color : green ;
+
+    }
+
+
+    
+    .secondary .Spart2 .section1 p{
+
+        color : white ;
+        padding : 10px ;
+      }
+
+
+    .secondary .Spart2 .section2 img{
+
+        width : 90% ;
+        height : 350px ;
+        margin-top : 10px ;
+        padding-left: 17px ;
+    }
+   
+    
+    
+        
+      
+
+      .secondary .Spart2 .section2 p{
+          width: 100% ;
+          height : 60px ;
+          background-color : #3498DB  ;
+          color : white ;
+          text-align: center ;
+          padding-top : 11px ;   
+
+      }
+
+
+      
+      .secondary .Spart3 .section1{
+
+        width : 100% ;
+        height : 40px ;
+        background-color : green ;
+
+    }
+
+
+    
+    .secondary .Spart3 .section1 p{
+
+      color : white ;
+      padding : 10px ;
+    }
+
+
+    .secondary .Spart3 .section2 img{
+
+        width : 90% ;
+        height : 350px ;
+        margin-top : 10px ;
+        padding-left: 17px ;
+    }
+   
+    
+    
+        
+      
+
+      .secondary .Spart3 .section2 p{
+          width: 100% ;
+          height : 60px ;
+          background-color : #C0392B   ;
+          color : white ;
+          text-align: center ;
+          padding-top : 11px ;   
+
+      }
+
+
+      .secondary .Spart4 .section1{
+
+        width : 100% ;
+        height : 40px ;
+        background-color : green ;
+
+    }
+
+      .secondary .Spart4 .section1 p{
+
+        color : white ;
+        padding : 8px ;
+        text-align: center ;
+        font-weight: 700 ;
+      }
+
+
+      .secondary .Spart4 .section2 img{
+
+        width : 80% ;
+        height : 650px ;
+        margin-top : 10px ;
+        padding-left: 17px ;
+        padding-bottom: 10px ;
+    }
+
+
+
+
+    
+
+    .secondary .Spart5 .section1{
+
+        width : 100% ;
+        height : 40px ;
+        background-color : green ;
+
+    }
+
+      .secondary .Spart5 .section1 p{
+
+        color : white ;
+        padding : 8px ;
+        text-align: center ;
+        font-weight: 700 ;
+      }
+
+
+      .secondary .Spart5 .section2 img{
+
+        width : 100% ;
+        height : 500px ;
+       
+       
+       
+    }
+
+
+
+
+    .secondary .Spart6 .section1{
+
+        width : 100% ;
+        height : 40px ;
+        background-color : green ;
+
+    }
+
+      .secondary .Spart6 .section1 p{
+
+        color : white ;
+        padding : 8px ;
+        text-align: center ;
+        font-weight: 700 ;
+
+      }
+
+
+      .secondary .Spart6 .section2 img{
+
+        width : 100% ;
+        height : 500px ;
+       
+       
+    }
+
+
+
+    
+    .secondary .Spart7 .section1{
+
+        width : 100% ;
+        height : 40px ;
+        background-color : green ;
+
+    }
+
+      .secondary .Spart7 .section1 p{
+
+        color : white ;
+        padding : 8px ;
+        text-align: center ;
+        font-weight: 700 ;
+      }
+
+
+      .secondary .Spart7 .section2 img{
+
+        width : 100% ;
+        height : 400px ;
+       
+       
+       
+    }
+
+
+    .secondary .Spart8 .section1{
+
+        width : 100% ;
+        height : 40px ;
+        background-color : green ;
+
+    }
+
+      .secondary .Spart8 .section1 p{
+
+        color : white ;
+        padding : 8px ;
+        text-align: center ;
+        font-weight: 700 ;
+      }
+
+
+
+
+
+      .footer{
+
+        width: 100% ;
+        height : 186px ;
+        background-color: #EBEDEF  ;
+        float : left ;
+       
+         
+      }
+
+      .footer .g{
+          background-color: #8E44AD  ;
+          color: white ;
+          padding-left : 100px ;
+         
+      }
+
+
+      .footer .icons{
+        padding: 30px 100px  ;
+    }
+         
+  
+
+
+      
+.icons{
+    /*comment width: 800px ;
+height: 800 px ;*/
+    overflow: hidden ;
+}
+
+.icons ul{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.icons ul li{
+
+    list-style-type: none ;
+    margin-right: 10px ;
+    float: left ;
+
+}
+
+.icons ul li:last-child{
+
+    margin-right: none ;
+}
+
+.icons ul li a{
+
+    width: 84px ;
+    height: 84px ;
+    background-image: url('icons.png') ;
+    border: 2px solid black ;
+    border-radius: 50% ;
+    display: inline-block ;
+    transition: 0.5s ;
+   
+
+  
+}
+
+.icons ul li:hover:nth-child(1) a{
+
+    background-position: 0 -84px ;
+
+}
+
+.icons ul li:nth-child(2) a{
+
+    background-position: -84px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(2) a{
+
+    background-position: -84px -84px ;
+
+}
+
+.icons ul li:nth-child(3) a{
+
+    background-position: -168px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(3) a{
+
+    background-position: -168px -84px ;
+
+}
+
+.icons ul li:nth-child(4) a{
+
+    background-position: -252px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(4) a{
+
+    background-position: -252px -84px ;
+
+}
+
+.icons ul li:nth-child(5) a{
+
+    background-position: -336px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(5) a{
+
+    background-position: -336px -84px ;
+
+}
+
+.icons ul li:nth-child(6) a{
+
+    background-position: -420px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(6) a{
+
+    background-position: -420px -84px ;
+
+}
+
+.icons ul li:nth-child(7) a{
+
+    background-position: -504px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(7) a{
+
+    background-position: -504px -84px ;
+
+}
+
+.icons ul li:nth-child(8) a{
+
+    background-position: -588px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(8) a{
+
+    background-position: -588px -84px ;
+
+}
+
+.icons ul li:nth-child(9) a{
+
+    background-position: -672px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(9) a{
+
+    background-position: -672px -84px ;
+
+}
+
+.icons ul li:nth-child(10) a{
+
+    background-position: -756px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(10) a{
+
+    background-position: -756px -84px ;
+
+}
+
+.icons ul li:nth-child(11) a{
+
+    background-position: -840px 0 ;
+
+}
+
+.icons ul li:hover:nth-child(11) a{
+
+    background-position: -840px -84px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+     
+
+
+      
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
